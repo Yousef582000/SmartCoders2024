@@ -1,0 +1,146 @@
+.contact_section{
+    background-color: #1A3636;
+    padding: 100px 0;
+    width: 100%;
+   
+}
+.content_contact{
+    width: 100%;
+
+}
+.content_contact img{
+ 
+    max-width: 871px;
+    height: 864px;
+    top: 4197px;
+    gap: 0px;
+    border-radius: 0px 20px 100px 20px;
+
+    
+}
+.contact_section .form{
+ 
+    width: 100%;
+    max-width: 686px;
+height: 766px;
+border-radius: 100px 0px 0px 0px;
+background-color: #fff;
+border: 1px solid #C5E0FF;
+box-shadow:  20px 0px 50px #C5E0FF;
+
+}
+.contact_section .form .form-title{
+    font-family: inter;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 58px;
+    text-align: left;
+    color: #1A3636;
+    text-transform: capitalize;
+    
+}
+.content_contact .input_box{
+   width: 100%;
+   margin: 10px  0 35px 25px 
+}
+.content_contact .input_box input{
+width: 50%;
+height: 56.01px;
+border-radius: 8px;
+border: solid 1px #C5E0FF;
+padding: 5px 6px;
+outline: none;
+}
+.content_contact p{
+    font-family: inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+color: #1A3636;
+
+}
+.content_contact .input_data{
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+.content_contact .input_data input{
+    width: 100%;
+}
+.content_contact .input_box textarea{
+    width: 95%;
+    height: 56.01px;
+border-radius: 8px;
+border: solid 1px #C5E0FF;
+padding: 5px 6px;
+outline: none;
+}
+.content_contact .btn_form{
+    width: 312.89px;
+height: 50.41px;
+margin-left: 45px;
+border-radius:8px ;
+background: linear-gradient(90deg, #1A3636 0%, rgba(64, 83, 76, 0.88) 50%);
+color: #fff;
+box-shadow: 0px 4px 22px 0px #0000001F;
+outline: none;
+font-size: 16px;
+border: none;
+line-height: 24px;
+text-align: center;
+
+}
+.content_contact .btn_form i{
+    margin-left: 30px;
+    transition: .3s;
+}
+.btn_form:hover {
+    color: #1A3636;
+    border: solid 1px #1A3636;
+    background:#fff;
+}
+.btn_form:hover i{
+   margin-left: 45px;
+}
+
+@media screen and (max-width: 1024px) {
+    .contact_section .form .form-title{
+        font-size: 26px;
+        
+    }
+    .content_contact img{
+ 
+        width: 100%;
+        height: auto;
+        
+    }
+    .contact_section .form{
+ 
+        width: 100%;
+        height: auto;
+       
+    }
+    .content_contact .input_box input{
+        width: 80%;
+      
+        }
+        .content_contact .input_data{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        .content_contact .input_box textarea{
+            width: 85%;
+          
+        }
+        .content_contact .btn_form{
+            width:80%;
+        height: 50.41px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+       
+        
+        }        
+}

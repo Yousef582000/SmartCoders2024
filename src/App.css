@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kablammo&family=Spirax&display=swap');
+*{
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    font-family: Inter;
+}
+
+
+body{
+  /* overflow-x: hidden; */
+  width:100%;
+}
+.btn__contact{
+  width: 142px;
+  height: 42px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #D6BD98;
+  font-weight: 600px;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: inter;
+  color: #1A3636;
+  transition: .3s;
+  }
+   .btn__contact:hover{
+      background-color: #1A3636;
+      color: #D6BD98;
+      transition: .3s;
+      border: solid 3px #D6BD98;
+      box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.26);
+      transform: scale(1.1);
+  }
+  .title{
+    color: #D6BD98;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 71px;
+    font-family: inter;
+    margin-bottom: 70px;
+}

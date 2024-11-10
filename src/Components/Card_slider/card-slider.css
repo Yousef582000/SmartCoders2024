@@ -1,0 +1,66 @@
+.card_slider{
+    width: 547.42px;
+height: 435.48px;
+background: radial-gradient(151.64% 120.36% at 47.19% -0.63%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+border-radius: 77px 0 77px 0;
+backdrop-filter: blur(36px);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-bottom: 35px;
+
+
+}
+.card_slider .img__card img{
+    width: 400px;
+
+}
+.card_slider .img__card img{
+    width: 300px;
+    height: 300px;
+    border-radius: 77px 0 77px 0;  
+    object-fit: contain;  
+}
+.card_slider .btn__slider{
+   width: 100%;
+   height: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 10px;
+}
+.btn__slider a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #1A3636;
+}
+.btn__slider h3{
+    font-size: 30px;
+    color: #fff;
+    font-family: inter;
+    font-weight: 300;
+}
+
+.btn__slider a:hover{
+    color: #D6BD98;
+    transition: .3s;
+}
+
+/* media queries */
+
+@media screen and (max-width: 768px){
+    .card_slider{
+        width: 300px;
+        height: 250px;
+    margin-bottom: 75px;
+    }
+    .card_slider .img__card img{
+        width: 200px;
+        height: 200px;
+    }
+    .btn__slider{
+        height: 40%;
+    }
+}

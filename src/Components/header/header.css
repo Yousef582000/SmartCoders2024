@@ -1,0 +1,126 @@
+.header__nav{
+    padding: 0px 34px;
+    /* margin: 10px 0 40px 0 ; */
+    width: 100%;
+    height: 100px;
+    background-color: #1A3636;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.26);
+    position: fixed;
+    z-index: 999;
+
+
+}
+.nav__bar{
+    padding: 0 0;
+  
+}
+.header__nav .nav__bar .logo{
+width: 125px;
+height: 125px;
+}
+.header__nav .nav__bar .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.header__nav .nav__bar .lists{
+   list-style: none;
+   width: 70%;
+   display: flex;
+   justify-content: space-between;
+}
+.header__nav .nav__bar .lists li:last-child{
+    margin-left: 50px;
+}
+.header__nav .nav__bar .lists li a{
+    color: #D6BD98;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+ .btn__contact{
+width: 142px;
+height: 42px;
+padding: 10px;
+outline: none;
+border: none;
+border-radius: 10px;
+background-color: #D6BD98;
+font-weight: 600px;
+font-size: 14px;
+line-height: 14px;
+font-family: inter;
+color: #1A3636;
+transition: .3s;
+}
+ .btn__contact:hover{
+    background-color: #1A3636;
+    color: #D6BD98;
+    transition: .3s;
+    border: solid 3px #D6BD98;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.26);
+    transform: scale(1.1);
+}
+.toggle__menu {
+    font-size: 28px;
+    cursor: pointer;
+    color: #D6BD98;
+    display: none;
+}
+
+/* media query */
+@media screen and (max-width: 1016px) {
+  
+    .header__nav .nav__bar .lists{
+        /* display: none; */
+        width: 100%;
+        height: 550px;
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        flex-direction: column;
+        z-index: 100;
+        left: -0;
+        top: 10px;
+        justify-content: center;
+        clip-path: polygon(0 0, 100% 0%, 0 0, 0% 100%);
+        transition: .3s;
+
+
+    }
+    .header__nav .nav__bar .lists.active{
+        transition: .3s;
+        clip-path: polygon(0 0, 100% 0%, 99% 100%, 0% 100%);
+
+
+
+        /* background-color: red; */
+    }
+    .toggle__menu{
+        display: block;
+        margin-left: 10px;
+        position: relative;
+        z-index: 1000;
+    }
+    .header__nav .nav__bar .lists li {
+       margin-bottom: 25px;
+    }
+    .header__nav .nav__bar .logo img{
+        width: 50%;
+        height: 50%;
+       margin-top: 30px;
+    }
+    .header__nav .nav__bar .btn__contact{
+        width: 100px;
+        height: 32px;
+
+        font-weight: 400px;
+        font-size: 10px;
+        line-height: 10px;
+    
+        }
+        .header__nav .nav__bar .lists li:last-child{
+            margin-left: 0px;
+        }
+}
